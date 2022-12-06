@@ -1,37 +1,35 @@
-name: Sphinx docs to gh-pages
+name: build-sphinx-to-gh-pages
 
-on:
+env:
+  GITHUB_ACTOR: deber0 
+  GITHUB_REPOSITORY: deber0/deber0.github.io
+  #GITHUB_TOKEN: ${{ secrets.CREATE_DEMO_SECRET }}
+
+on: 
   push:
-    branches:
-      - main
+    branches: [ main ]
 
-# workflow_dispatch:        # Un comment line if you also want to trigger action manually
 
 jobs:
-  sphinx_docs_to_gh-pages:
+
+  build_sphinx_job:
     runs-on: ubuntu-latest
-    name: Sphinx docs to gh-pages
+    container: debian:buster-slim
+
     steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - name: Make conda environment
-        uses: conda-incubator/setup-miniconda@v2
-        with:
-          python-version: 3.7    # Python version to build the html sphinx documentation
-          environment-file: conda_docs.yaml    # Path to the documentation conda environment
-          auto-update-conda: false
-          auto-activate-base: false
-          show-channel-urls: true
-      - name: Installing the library
-        shell: bash -l {0}
+    
+      - name: Get prerequisites and clone repository
+        env:
+          #GITHUB_TOKEN: ${{ secrets.CREATE_DEMO_SECRET }}
         run: |
-          python setup.py install
-      - name: Running the Sphinx to gh-pages Action
-        uses: uibcdf/action-sphinx-docs-to-gh-pages@v1.0.0
-        with:
-          branch: main
-          dir_docs: docs
-          sphinxapiopts: '--separate -o . ../'
-          sphinxapiexclude: '../*setup* ../*.ipynb'
-          sphinxopts: ''
+          set -x
+          apt-get update
+          apt-get install -y git
+          git clone "https://token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .
+        shell: bash
+
+      - name: Run build script for Sphinx pages
+        env:
+          #GITHUB_TOKEN: ${{ secrets.CREATE_DEMO_SECRET }}
+        run: "docs/buildsite.sh"
+        shell: bash
