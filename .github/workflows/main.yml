@@ -1,0 +1,33 @@
+name: Check URLs
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: urlchecker-action
+      # You may pin to the exact commit or the version.
+      # uses: urlstechie/urlchecker-action@d79ac4327d583f3a0f5a9e91cd5cff646326d0be
+      uses: urlstechie/urlchecker-action@0.0.27
+      with:
+        # A project to clone. If not provided, assumes already cloned in the present working directory.
+        git_path: https://github.com/deber0/deber0.github.io
+
+        # Delete the cloned repository after running URLchecked (default is false)
+        cleanup: true
+
+        # A comma-separated list of file types to cover in the URL checks
+        file_types: .md,.py,.rst
+
+        # Choose whether to include file with no URLs in the prints.
+        print_all: false
+
+        # The timeout seconds to provide to requests, defaults to 5 seconds
+        timeout: 5
+
+        # How many times to retry a failed request (each is logged, defaults to 1)
+        retry_count: 3
+
+        # choose if the force pass or not
+        force_pass : true
