@@ -1,0 +1,4 @@
+sphinx.ext.githubpages
+sphinxcontrib.pdfembed
+#sphinx_sitemap
+spinxemoji.sphinxemoji
