@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Building The Portfolio &mdash; Deber0\&#39;s Journey 3.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Thank you!" href="thank_you.html" />
+    <link rel="prev" title="Logging" href="hobbies/logging.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Deber0\'s Journey
+            <img src="../_static/drew.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Navigation:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="resume.html">Resume</a></li>
+<li class="toctree-l1"><a class="reference internal" href="course_listing/index.html">Course Listing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects/index.html">Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hobbies/index.html">Hobbies</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Building The Portfolio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thank_you.html">Thank you!</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Deber0\'s Journey</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Building The Portfolio</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/pages/building_the_portfolio.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="building-the-portfolio">
+<h1>Building The Portfolio<a class="headerlink" href="#building-the-portfolio" title="Permalink to this heading"></a></h1>
+<p>Be mindful that installation steps are specific to the OS environment which the user interacts in. Below is documentation for Linux Debian derivative.</p>
+<p><strong>Required Steps:</strong></p>
+<ol class="arabic">
+<li><p>Using <a class="reference external" href="https://pages.github.com/">GitHub Pages</a>, follow the steps outlined to establish a repository for website.</p></li>
+<li><p>Clone your created repository to your local machine and navigate to the directory within your chosen IDE. I used Visual Studio Code.</p></li>
+<li><dl>
+<dt>Send <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">python3-sphinx</span></code> This method ensures python3 is installed which sphinx depends on.</dt><dd><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If python3 is installed, send <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-u</span> <span class="pre">sphinx</span></code></p>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>After dependency installs, inside of your cloned repository directory on your local machine, send <code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">sphinx-quickstart</span> <span class="pre">docs</span></code>  This shell command invokes the sphinx quickstart script that will build preliminary documents to begin your project. docs will be the root directory for all build documentation.</dt><dd><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For more detailed guidance, see <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/quickstart.html">https://www.sphinx-doc.org/en/master/usage/quickstart.html</a></p>
+</div>
+</dd>
+</dl>
+</li>
+<li><p>Serving your project to GitHub Pages: <a class="reference external" href="https://www.docslikecode.com/articles/github-pages-python-sphinx/">Docs Like Code</a></p></li>
+</ol>
+<p><strong>Additional Resources:</strong></p>
+<ol class="arabic simple">
+<li><p>References for configuring file structures and syntax to format this Portfolio: <a class="reference external" href="https://www.devdungeon.com/content/restructuredtext-rst-tutorial-0">reStructuredText (RST) Tutorial</a></p></li>
+<li><p>This Portfolio was built using <a class="reference external" href="https://github.com/readthedocs/sphinx_rtd_theme">Sphinx</a> with a <a class="reference external" href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a class="reference external" href="https://github.com/readthedocs/sphinx_rtd_theme">Read the Docs</a>.</p></li>
+<li><p><a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html">reStructuredText Markup Specification</a></p></li>
+<li><p><a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/index.html">Using Sphinx</a></p></li>
+</ol>
+<p>My repository can be found <a class="reference external" href="https://github.com/deber0">here</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Updates to this section will be added periodically</p>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="hobbies/logging.html" class="btn btn-neutral float-left" title="Logging" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="thank_you.html" class="btn btn-neutral float-right" title="Thank you!" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Drew Brown.
+      <span class="lastupdated">Last updated on Dec 07, 2022 16:15.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
