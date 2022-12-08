@@ -12,5 +12,5 @@ This is an overview of one of my favorite classes which included hands-on intera
 .. important::
     - View some coursework that was developed below 
 
-:pdfembed:`src:../../../../_static/assets/IT419_HW5_File_Sharing.pdf#view=Fit&toolbar=1, height:800, width:750, align: middle`
+:pdfembed:`src:../_source/_static/assets/IT419_HW5_File_Sharing.pdf#view=Fit&toolbar=1, height:800, width:750, align: middle`
 
