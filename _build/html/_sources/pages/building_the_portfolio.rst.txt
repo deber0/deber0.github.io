@@ -6,6 +6,7 @@ Be mindful that installation steps are specific to the OS environment which the 
 
 **Required Steps:**
 
+
 1. Using `GitHub Pages <https://pages.github.com/>`_, follow the steps outlined to establish a repository for website.
 2. Clone your created repository to your local machine and navigate to the directory within your chosen IDE. I used Visual Studio Code.
 3. Send ``$ sudo apt-get install python3-sphinx`` This method ensures python3 is installed which sphinx depends on.
