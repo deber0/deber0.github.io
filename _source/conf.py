@@ -15,7 +15,7 @@ release = '3.1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = '_static/assets/drew.png'
+html_logo = '_static/_assets/drew.png'
 
 html_last_updated_fmt = '%b %d, %Y %H:%M'
 
@@ -33,4 +33,4 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static/assets']
+html_static_path = ['_static/_assets']

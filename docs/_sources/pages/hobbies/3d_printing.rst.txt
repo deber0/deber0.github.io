@@ -2,7 +2,7 @@
 3D Printing
 ===========
 
-.. image:: /_static/assets/3D_printer.png
+.. image:: /_static/_assets/3D_printer.png
     :height: 550
     :width: 400
     :alt: Image: I use a Creality Ender3 S1 Pro fused deposition modeling printer for print protoyping.
@@ -12,7 +12,7 @@ A current print project I am working is creating a series of rings based on pers
 
 I use AutoCAD Fusion 360 to complete the models.
 
-.. image:: /_static/assets/first_ring_model.png
+.. image:: /_static/_assets/first_ring_model.png
     :height: 550
     :width: 400
     :alt: Image: These are some various model screenshots from Fusion360
@@ -20,7 +20,7 @@ I use AutoCAD Fusion 360 to complete the models.
 
 Above is the first model and below is the picture of the subsequent print.
 
-.. image:: /_static/assets/1st_ring_print.jpeg
+.. image:: /_static/_assets/1st_ring_print.jpeg
     :height: 550
     :width: 400
     :alt: Image: These are some various model prints.
@@ -28,13 +28,13 @@ Above is the first model and below is the picture of the subsequent print.
 
 A tad small. Back to modeling in larger dimensions.
 
-.. image:: /_static/assets/2nd_ring_model.jpeg
+.. image:: /_static/_assets/2nd_ring_model.jpeg
     :height: 550
     :width: 400
     :alt: Image: These are some various model screenshots from Fusion360
     :align: center
 
-.. image:: /_static/assets/3D_print.jpeg
+.. image:: /_static/_assets/3D_print.jpeg
     :height: 550
     :width: 400
     :alt: Image: These are some various model screenshots from Fusion360
