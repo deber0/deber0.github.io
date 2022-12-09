@@ -15,7 +15,7 @@ release = '3.1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = '_static/_assets/drew.png'
+html_logo = '_static/_assets/drew_v2.jpeg'
 
 html_last_updated_fmt = '%b %d, %Y %H:%M'
 
