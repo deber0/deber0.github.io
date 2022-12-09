@@ -21,6 +21,14 @@ webpage in a manner which I hope is intuitive to you.
 
 `Resume <https://deber0.github.io/pages/resume.html>`_
 
+Workspace
+=========
+.. image:: /_static/_assets/workspace_setup.jpeg
+    :alt: Image: These are some various model screenshots from Fusion360
+    :align: center
+
+This is my workspace where I love to create and learn all sorts of interesting ideas.
+
 .. toctree::
    :maxdepth: 2
    :caption: Navigation:
