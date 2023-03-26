@@ -5,5 +5,5 @@ Graduate School
 .. toctree::
     
     cyber_principles
-    digital_forensics607
+    adv_cyber_tech
     
