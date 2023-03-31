@@ -9,6 +9,7 @@ Self directed research uncovered jewelry making with precious metals is an intri
 This has not detered my efforts.  I recognized FDM printing is does not produce appropriate models for use in later stages of jewelrymaking. This lead to a purchase of a new tool.
 
 **Step 1:** Designing - Modeling in 3d software.  Fusion360 or Rhino7. Jewelry industry uses Rhino7 and its cheaper.
+
 .. image:: /_static/_assets/3d_knurling_ring.jpg
     :height: 550
     :width: 400
