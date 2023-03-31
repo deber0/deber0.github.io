@@ -21,6 +21,7 @@ Step 6.: Find market entry.
     :alt: Image: Fusion360 - a ring design of mine.
     :align: center
 
+
 **Resin Printing**
 
 Yet to be used, I added a Creality Halot One resin printer. Resin printers are capable of producing significantly more detailed prints and printing mediums which removes the presence of layering.
@@ -31,3 +32,20 @@ Resin printing is an extremely intricate process and requires several other tool
 
 There are various techniques used to create jewelry. Casting, Sandcasting, and a hand made process to name a few.
 
+.. image:: /_static/_assets/Toauto_3kg_melting_furnace.jpg
+    :height: 550
+    :width: 400
+    :alt: Image: Melting Furnace
+    :align: center
+
+This is a 3kg melting furnace.  Pictured are varying material weights which can be smelted.  The weight vary due to their varied densities.
+
+Density of Materials
+
+1. Au Gold - 19.3 g/cm^3
+2. Cu Copper - 8.96 g/cm^3
+3. Ag Silver - 10.49 g/cm^3
+4. Al Aluminum - 2.7 g/cm^3
+5. Pb Lead - 11.34 g/cm^3
+
+`Periodic Table <https://www.rsc.org/periodic-table//>`
