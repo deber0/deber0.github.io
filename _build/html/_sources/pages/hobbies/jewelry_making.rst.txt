@@ -48,4 +48,4 @@ Density of Materials
 4. Al Aluminum - 2.7 g/cm^3
 5. Pb Lead - 11.34 g/cm^3
 
-`Periodic Table <https://www.rsc.org/periodic-table//>`
+`Periodic Table <https://www.rsc.org/periodic-table/>`
