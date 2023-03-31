@@ -33,8 +33,8 @@ Resin printing is an extremely intricate process and requires several other tool
 There are various techniques used to create jewelry. Casting, Sandcasting, and a hand made process to name a few.
 
 .. image:: /_static/_assets/Toauto_3kg_melting_furnace.jpg
-    :height: 1000
-    :width: 1000
+    :height: 750
+    :width:  750
     :alt: Image: Melting Furnace
     :align: center
 
