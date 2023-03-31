@@ -8,17 +8,17 @@ Self directed research uncovered jewelry making with precious metals is an intri
 
 This has not detered my efforts.  I recognized FDM printing is does not produce appropriate models for use in later stages of jewelrymaking. This lead to a purchase of a new tool.
 
-Step 1: Designing
+*Step 1:* Designing
 
-Step 2: Printing Prototypes - FDM is used as a proof of concept to inspect dimensions.
+*Step 2:* Printing Prototypes - FDM is used as a proof of concept to inspect dimensions.
 
-Step 3: Casting - Casting is an intricate process that requires significants amount of energy.  States of matter change from solid to molten metal and cooled back to solid.
+*Step 3:* Casting - Casting is an intricate process that requires significants amount of energy.  States of matter change from solid to molten metal and cooled back to solid.
 
-Step 4: If stones are desired for the piece, sizing of stones and type are considered and then set appropriately according design requirments.
+*Step 4:* If stones are desired for the piece, sizing of stones and type are considered and then set appropriately according design requirments.
 
-Step 5: Polishing 
+*Step 5:* Polishing 
 
-Step 6: Find market entry.
+*Step 6:* Find market entry.
 
 .. image:: /_static/_assets/3d_knurling_ring.jpg
     :height: 550
