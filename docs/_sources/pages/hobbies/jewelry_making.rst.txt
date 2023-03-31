@@ -16,6 +16,7 @@ This has not detered my efforts.  I recognized FDM printing is does not produce 
     :alt: Image: Fusion360 - a ring design of mine.
     :align: center
 
+
 **Step 2:** Printing Prototypes - FDM is used as a proof of concept to inspect dimensions.
 
 **Step 3:** Casting - Casting is an intricate process that requires significants amount of energy.  States of matter change from solid to molten metal and cooled back to solid. Lost wax casting.
@@ -48,7 +49,7 @@ There are various techniques used to create jewelry. Casting, Sandcasting, and a
     :alt: Image: Melting Furnace
     :align: center
 
-This is a 3kg melting furnace.  Pictured are varying material weights which can be smelted.  The weight vary due to their varied densities.
+This is a 3kg melting furnace.  Pictured are varying material weights which can be smelted.  Their capacities vary due to their different densities.
 
 Density of Materials
 
@@ -59,3 +60,19 @@ Density of Materials
 5. Pb Lead - 11.34 g/cm^3
 
 `Periodic Table <https://www.rsc.org/periodic-table/>`
+
+---------------------------
+Polishing and Stone Setting
+---------------------------
+
+
+
+------------
+Market Entry
+------------
+
+.. image:: /_static/_assets/ring_mandrel.jpg
+    :height: 800
+    :width: 400
+    :alt: Image: Fusion360 - a ring design of mine.
+    :align: center
