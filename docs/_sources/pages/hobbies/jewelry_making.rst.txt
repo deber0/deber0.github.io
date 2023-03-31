@@ -2,7 +2,7 @@
 Process of Jewelry Creation
 ===========================
 
-Through the use of 3D printing technology, I started learning about the process of jewlery making. I audited a course offered by ODU's art department "Jewelrymaking".
+Through the use of 3D printing technology, I started learning about the process of jewlery making. I audited a course offered by ODU's art department Arts291/391/392/393 Metalsmithing and Jewelry.
 
 Self directed research uncovered jewelry making with precious metals is an intricate process. It is a form of art. 
 
@@ -33,8 +33,8 @@ Resin printing is an extremely intricate process and requires several other tool
 There are various techniques used to create jewelry. Casting, Sandcasting, and a hand made process to name a few.
 
 .. image:: /_static/_assets/Toauto_3kg_melting_furnace.jpg
-    :height: 550
-    :width: 400
+    :height: 1000
+    :width: 1000
     :alt: Image: Melting Furnace
     :align: center
 
