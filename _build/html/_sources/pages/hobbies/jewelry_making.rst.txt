@@ -72,7 +72,7 @@ Market Entry
 ------------
 
 .. image:: /_static/_assets/ring_mandrel.jpg
-    :height: 800
-    :width: 400
+    :height: 1130
+    :width: 527
     :alt: Image: Fusion360 - a ring design of mine.
     :align: center
