@@ -2,6 +2,8 @@
 Building The Portfolio
 ======================
 
+
+** The below steps are a rough outline of building a website with the Sphinx project.  These are mainly notes for my awareness for troubleshooting. It has been a while since I have interacted with my webpage build and thus will be restarting the build process from where I left off. 
 Be mindful that installation steps are specific to the OS environment which the user interacts in. Below is documentation for Linux Debian derivative.
 
 **Required Steps:**
@@ -17,7 +19,8 @@ Be mindful that installation steps are specific to the OS environment which the 
     .. note:: For more detailed guidance, see `<https://www.sphinx-doc.org/en/master/usage/quickstart.html>`_
 
 5. Serving your project to GitHub Pages: `Docs Like Code <https://www.docslikecode.com/articles/github-pages-python-sphinx/>`_
-
+    .. note:: This is where an edit to conf.py is mentioned. Super important for sending a custom document build command 'make github'
+        This builds the html pages to prepare the commit for serving on GitHub pages.
 
 **Additional Resources:**
 
@@ -30,5 +33,3 @@ Be mindful that installation steps are specific to the OS environment which the 
 My repository can be found `here <https://github.com/deber0>`_.
 
 .. note:: Updates to this section will be added periodically
-
-    This is a test of Updates. 24Mar2023
