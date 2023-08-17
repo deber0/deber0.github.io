@@ -6,7 +6,7 @@
 =====================
 Welcome to my Journey
 Drew E. Brown
-=====================
+
 
 *-- Perseverance leads creation*
 --------------------------------
