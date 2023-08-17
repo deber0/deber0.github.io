@@ -6,7 +6,17 @@
 
 **Welcome to my Journey**
 **Drew E. Brown**
-=====================
+=========================
+
+.. code-block:: text
+
+   W   W  EEEEE  L     CCCC OOOO M   M EEEE       TTTTT OOOO        M   M Y   Y JJJJJ  OOOO U   U RRRR  N   N EEEE Y   Y
+   W W W  EE   L   L CC   OO  OO MM MM EE           T  OO  OO       MM MM  Y Y    J  OO  OO U   U R  R  NN  N EE    Y Y
+   W W W  EEEE  L   L CC   OO  OO M M M EEEE         T  OO  OO       M M M   Y     J  OO  OO U   U RRRR  N N N EEEE   Y
+   W W W  EE   L   L CC   OO  OO M   M EE           T  OO  OO       M   M   Y   J J  OO  OO U   U R R  N  NN EE    Y Y
+    W W   EEEEE  LLL   CCCC  OOOO  M   M EEEE        T   OOOO        M   M   Y   JJJ   OOOO  UUUU  R  R N   N EEEE  Y Y
+
+
 
 
 *-- Perseverance leads creation*
