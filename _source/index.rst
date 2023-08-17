@@ -37,5 +37,6 @@ This is my workspace where I love to create and learn all sorts of interesting i
    pages/course_listing/index
    pages/projects/index
    pages/hobbies/index
+   pages/quick_guide_rst
    pages/building_the_portfolio
    pages/thank_you

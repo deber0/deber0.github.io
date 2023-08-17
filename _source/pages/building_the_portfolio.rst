@@ -3,7 +3,7 @@ Building The Portfolio
 ======================
 
 
-** The below steps are a rough outline of building a website with the Sphinx project.  These are mainly notes for my awareness for troubleshooting. It has been a while since I have interacted with my webpage build and thus will be restarting the build process from where I left off. 
+**The below steps are a rough outline of building a website with the Sphinx project.  These are mainly notes for my awareness for troubleshooting. It has been a while since I have interacted with my webpage build and thus will be restarting the build process from where I left off. 
 Be mindful that installation steps are specific to the OS environment which the user interacts in. Below is documentation for Linux Debian derivative.
 
 **Required Steps:**
