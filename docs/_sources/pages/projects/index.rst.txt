@@ -4,6 +4,7 @@ Projects
 A compilation of various projects. Both in-progress and completed.
 
 .. toctree::
+   :maxdepth: 2
 
     aws
     creating_the_fleet_maker
