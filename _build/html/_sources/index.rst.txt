@@ -31,7 +31,7 @@ Workspace
 This is my workspace where I love to create and learn all sorts of interesting ideas.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Navigation:
 
    pages/resume
