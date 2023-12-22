@@ -15,8 +15,9 @@ Drew E. Brown
 Intro
 =====
 
-I am a curious creature seeking to share experience and knowledge for the greater good. I have organized this 
-webpage in a manner which I hope is intuitive to you.
+I am curious and seeking to share experience and knowledge for the greater good. Thank you for your time viewing my portfolio.
+
+`Class of 2023: Drew Brown Uses His Educational Journey to Inspire Others <https://www.odu.edu/article/class-of-2023-drew-brown-uses-his-educational-journey-to-inspire-others>`_
 
 `Student Veteran Aims to Keep Businesses Secure <https://www.odu.edu/eng/news/2022/1/student_veteran_keep#.YuQxYmHMKw4>`_.
 
@@ -28,7 +29,7 @@ Workspace
     :alt: Image: These are some various model screenshots from Fusion360
     :align: center
 
-This is my workspace where I love to create and learn all sorts of interesting ideas.
+This is my workspace where I love to create and explore all sorts of interesting ideas.
 
 .. toctree::
    :maxdepth: 3
