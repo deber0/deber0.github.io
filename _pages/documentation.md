@@ -4,7 +4,7 @@ title: Documentation
 permalink: /documentation/
 ---
 
-Technical documentation, business development insights, and guides for building and scaling technology ventures.
+Documentation and insights on building technology ventures, business development, and scaling strategies.
 
 <div class="documentation-grid">
   {% for doc in site.documentation %}
