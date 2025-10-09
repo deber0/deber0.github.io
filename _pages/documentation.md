@@ -86,23 +86,35 @@ Documentation and insights on building technology ventures, business development
 .external-link-small {
   display: inline-block;
   background: #3A6EA5;
-  color: white;
+  color: #D4AF37 !important;
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
   text-decoration: none;
   font-size: 0.8rem;
   margin: 0.2rem 0.2rem 0.2rem 0;
-  transition: background-color 0.2s ease;
+  transition: all 0.2s ease;
+  font-weight: 600;
 }
 
 .external-link-small:hover {
   background: #0A2540;
   text-decoration: none;
-  color: white;
+  color: #D4AF37 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(212, 175, 55, 0.25);
+}
+
+.external-link-small:visited {
+  color: #D4AF37 !important;
+}
+
+.external-link-small:active {
+  color: #D4AF37 !important;
 }
 
 .external-link-small::after {
   content: " ↗";
   font-size: 0.7rem;
+  color: #D4AF37 !important;
 }
 </style>
