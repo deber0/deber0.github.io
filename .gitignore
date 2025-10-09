@@ -1,0 +1,26 @@
+# Jekyll build output
+_site/
+
+# Jekyll cache
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby dependencies
+.bundle/
+vendor/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+sphinx_backup_*/
+
+# Logs
+*.log
