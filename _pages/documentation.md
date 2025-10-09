@@ -8,20 +8,22 @@ Documentation and insights on building technology ventures, business development
 
 <div class="documentation-grid">
   {% for doc in site.documentation %}
-  <div class="documentation-card">
-    <h3><a href="{{ doc.url }}">{{ doc.title }}</a></h3>
-    <p>{{ doc.description }}</p>
-    {% if doc.category %}
-    <span class="doc-category">{{ doc.category }}</span>
-    {% endif %}
-    {% if doc.external_links %}
-    <div class="doc-links">
-      {% for link in doc.external_links %}
-      <a href="{{ link.url }}" target="_blank" rel="noopener" class="external-link-small">{{ link.title }}</a>
-      {% endfor %}
+  <a href="{{ doc.url }}" class="documentation-card-link">
+    <div class="documentation-card">
+      <h3>{{ doc.title }}</h3>
+      <p>{{ doc.description }}</p>
+      {% if doc.category %}
+      <span class="doc-category">{{ doc.category }}</span>
+      {% endif %}
+      {% if doc.external_links %}
+      <div class="doc-links">
+        {% for link in doc.external_links %}
+        <span class="external-link-small" data-url="{{ link.url }}">{{ link.title }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
-    {% endif %}
-  </div>
+  </a>
   {% endfor %}
 </div>
 
@@ -33,6 +35,12 @@ Documentation and insights on building technology ventures, business development
   margin: 2rem 0;
 }
 
+.documentation-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .documentation-card {
   padding: 2rem;
   background: #ffffff;
@@ -40,9 +48,10 @@ Documentation and insights on building technology ventures, business development
   border-left: 4px solid #0A2540;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-left-color 0.2s ease;
+  cursor: pointer;
 }
 
-.documentation-card:hover {
+.documentation-card-link:hover .documentation-card {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   border-left-color: #D4AF37;
@@ -51,14 +60,10 @@ Documentation and insights on building technology ventures, business development
 .documentation-card h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-}
-
-.documentation-card h3 a {
   color: #0A2540;
-  text-decoration: none;
 }
 
-.documentation-card h3 a:hover {
+.documentation-card-link:hover h3 {
   color: #3A6EA5;
 }
 
@@ -94,6 +99,9 @@ Documentation and insights on building technology ventures, business development
   margin: 0.2rem 0.2rem 0.2rem 0;
   transition: all 0.2s ease;
   font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
 }
 
 .external-link-small:hover {
@@ -104,17 +112,30 @@ Documentation and insights on building technology ventures, business development
   box-shadow: 0 2px 6px rgba(212, 175, 55, 0.25);
 }
 
-.external-link-small:visited {
-  color: #D4AF37 !important;
-}
-
-.external-link-small:active {
-  color: #D4AF37 !important;
-}
-
 .external-link-small::after {
   content: " ↗";
   font-size: 0.7rem;
   color: #D4AF37 !important;
 }
+
+.doc-links {
+  margin-top: 1rem;
+  position: relative;
+  z-index: 5;
+}
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Handle external link clicks (prevent card navigation)
+  const externalLinks = document.querySelectorAll('.external-link-small');
+  externalLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      const url = this.getAttribute('data-url');
+      window.open(url, '_blank', 'noopener,noreferrer');
+    });
+  });
+});
+</script>
