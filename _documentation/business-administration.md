@@ -1,4 +1,5 @@
 ---
+layout: documentation
 title: "Business Administration & Client Readiness"
 description: "Legal, financial, and operational requirements for accepting first client"
 category: "Operations"

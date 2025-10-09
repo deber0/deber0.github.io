@@ -1,4 +1,5 @@
 ---
+layout: documentation
 title: "First Client Acquisition Strategy"
 description: "Landing the first paying client with zero current clients"
 category: "Client Development"

@@ -1,7 +1,13 @@
 ---
-title: "Transitioning to Cybersecurity Consulting"
-description: "Roadmap for expanding from web development into cybersecurity services"
+layout: documentation
+title: "Cybersecurity Service Transition"
+description: "Evolving from web development to cybersecurity consulting"
 category: "Business Strategy"
+external_links:
+  - title: "ValorRate.com"
+    url: "https://valorrate.com"
+  - title: "VRV Pages"
+    url: "https://pages.valorrate.com"
 ---
 
 # Transitioning to Cybersecurity Consulting

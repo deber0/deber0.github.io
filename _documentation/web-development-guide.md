@@ -1,7 +1,13 @@
 ---
-title: "Web Development Best Practices"
-description: "Guide to building secure, performant websites"
-category: "Technical Guide"
+layout: documentation
+title: "Demo Development Roadmap"
+description: "Building compelling service demos to land first client"
+category: "Technical Implementation"
+external_links:
+  - title: "ValorRate.com"
+    url: "https://valorrate.com"
+  - title: "VRV Pages"
+    url: "https://pages.valorrate.com"
 ---
 
 # Web Development Best Practices

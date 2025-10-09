@@ -1,4 +1,5 @@
 ---
+layout: documentation
 title: "Valor Rate Ventures - Business Development"
 description: "Building and scaling VRV from web development to cybersecurity services"
 category: "Business Strategy"

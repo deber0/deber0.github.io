@@ -1,4 +1,5 @@
 ---
+layout: documentation
 title: "Service Delivery Framework"
 description: "From first client to repeatable service delivery process"
 category: "Operations"
