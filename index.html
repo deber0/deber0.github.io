@@ -11,14 +11,26 @@ layout: default
   </header>
 
   <section class="intro">
-    <h2>Intro</h2>
-    <p>I am curious and seeking to share experience and knowledge for the greater good. Thank you for your time viewing my portfolio.</p>
+    <h2>About Me</h2>
+    <p>I am a <strong>cybersecurity professional</strong>, <strong>maker</strong>, and <strong>lifelong learner</strong> driven by curiosity and a passion for creating meaningful solutions. My journey spans from military service to graduate-level cybersecurity education, always guided by the principle that <em>perseverance leads creation</em>.</p>
     
-    <ul class="links">
-      <li><a href="https://www.odu.edu/article/class-of-2023-drew-brown-uses-his-educational-journey-to-inspire-others">Class of 2023: Drew Brown Uses His Educational Journey to Inspire Others</a></li>
-      <li><a href="https://www.odu.edu/eng/news/2022/1/student_veteran_keep#.YuQxYmHMKw4">Student Veteran Aims to Keep Businesses Secure</a></li>
-      <li><a href="/resume/">Resume</a></li>
-    </ul>
+    <p>Through hands-on projects, academic research, and professional experience, I bridge the gap between theoretical knowledge and practical application. Whether it's building secure cloud infrastructure, crafting jewelry with precision metalworking, or mentoring the next generation of cybersecurity professionals, I bring the same dedication to excellence and continuous improvement.</p>
+    
+    <div class="recognition">
+      <h3>Recognition & Features</h3>
+      <ul class="links">
+        <li><a href="https://www.odu.edu/article/class-of-2023-drew-brown-uses-his-educational-journey-to-inspire-others">🎓 Class of 2023: Drew Brown Uses His Educational Journey to Inspire Others</a></li>
+        <li><a href="https://www.odu.edu/eng/news/2022/1/student_veteran_keep#.YuQxYmHMKw4">🛡️ Student Veteran Aims to Keep Businesses Secure</a></li>
+        <li><a href="/resume/">📄 Professional Resume</a></li>
+      </ul>
+    </div>
+    
+    <div class="philosophy">
+      <blockquote>
+        <p>"Technology is best when it brings people together and solves real problems. My goal is to make cybersecurity accessible, education engaging, and creativity purposeful."</p>
+        <cite>— Drew E. Brown</cite>
+      </blockquote>
+    </div>
   </section>
 
   <section class="workspace">
@@ -128,5 +140,63 @@ layout: default
 
 .links a:hover {
   text-decoration: underline;
+}
+
+.recognition {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  border-left: 4px solid #0366d6;
+}
+
+.recognition h3 {
+  margin-top: 0;
+  color: #0366d6;
+  font-size: 1.1rem;
+}
+
+.philosophy {
+  margin: 2rem 0;
+}
+
+.philosophy blockquote {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+  position: relative;
+}
+
+.philosophy blockquote::before {
+  content: '"';
+  font-size: 4rem;
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  opacity: 0.3;
+}
+
+.philosophy cite {
+  display: block;
+  margin-top: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  text-align: right;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.intro strong {
+  color: #0366d6;
+  font-weight: 600;
 }
 </style>

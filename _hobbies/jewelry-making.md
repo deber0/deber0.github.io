@@ -57,12 +57,63 @@ Reference: [Periodic Table](https://www.rsc.org/periodic-table/)
 
 ## Polishing and Stone Setting
 
-*Content to be expanded*
+### Polishing Techniques
+The final finishing process involves multiple stages of progressively finer abrasives:
+
+1. **Coarse Polishing**: 220-400 grit sandpaper for initial surface preparation
+2. **Fine Polishing**: 800-1200 grit for smooth surface achievement
+3. **Compound Polishing**: Rouge and tripoli compounds for mirror finish
+4. **Final Buffing**: Soft cloth wheels for ultimate shine
+
+### Stone Setting Methods
+- **Prong Setting**: Secure and showcases stone brilliance
+- **Bezel Setting**: Protective metal rim around stone perimeter
+- **Pave Setting**: Multiple small stones set closely together
+- **Channel Setting**: Stones held between two metal rails
+
+### Tools and Equipment
+- **Flex Shaft**: Variable speed rotary tool for precision work
+- **Setting Burs**: Specialized drill bits for stone seats
+- **Prong Pushers**: Tools for securing metal prongs
+- **Stone Tweezers**: Precision handling of gemstones
 
 ## Market Entry
 
 ![Ring Mandrel](/assets/images/ring_mandrel.jpg){: .mandrel-image}
-*Ring mandrel for sizing and shaping*
+*Ring mandrel for sizing and shaping rings to standard sizes*
+
+### Business Strategy
+Developing a sustainable jewelry business requires multiple revenue streams:
+
+#### Custom Design Services
+- **Client Consultation**: Understanding design preferences and budget
+- **3D Visualization**: Using Fusion360 for customer approval
+- **Prototyping**: FDM printing for fit and form validation
+- **Final Production**: Investment casting for precious metals
+
+#### Educational Workshops
+- **Basic Metalsmithing**: Teaching fundamental techniques
+- **3D Design for Jewelry**: CAD software training
+- **Casting Workshops**: Hands-on experience with lost-wax process
+- **Stone Setting Classes**: Precision work with gemstones
+
+#### Online Presence
+- **Portfolio Website**: Showcasing completed pieces
+- **Social Media Marketing**: Instagram and Pinterest for visual appeal
+- **E-commerce Platform**: Direct sales through Etsy and custom website
+- **Video Content**: YouTube tutorials for technique demonstration
+
+### Quality Standards
+- **Hallmarking**: Proper metal purity stamps
+- **Documentation**: Certificates for precious stones
+- **Photography**: Professional images for marketing
+- **Packaging**: Branded boxes and care instructions
+
+### Pricing Strategy
+- **Material Costs**: Gold, silver, and gemstone pricing
+- **Labor Hours**: Detailed time tracking for accurate pricing
+- **Market Research**: Competitive analysis for positioning
+- **Profit Margins**: Sustainable 40-60% markup for custom work
 
 <style>
 .design-image {

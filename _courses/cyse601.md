@@ -29,9 +29,51 @@ This graduate-level course covers advanced cybersecurity technologies and operat
   </a>
 </div>
 
-## Course Notes
+## Course Learning Outcomes
 
 This advanced cybersecurity course provided comprehensive coverage of modern cyber threats, operational security practices, and advanced threat analysis techniques.
+
+### Key Topics Covered
+
+#### Advanced Persistent Threats (APT)
+- **Nation-State Actors**: Analysis of sophisticated attack campaigns
+- **Attribution Techniques**: Methods for identifying threat actors
+- **Kill Chain Analysis**: Understanding multi-stage attack methodologies
+- **Case Studies**: Real-world APT campaigns and their impact
+
+#### Open Source Intelligence (OSINT)
+- **Intelligence Gathering**: Systematic collection from public sources
+- **Social Media Analysis**: Extracting actionable intelligence
+- **Technical OSINT**: Network reconnaissance and infrastructure mapping
+- **Legal and Ethical Considerations**: Responsible intelligence practices
+
+#### Threat Hunting and Analysis
+- **Proactive Detection**: Moving beyond signature-based detection
+- **Behavioral Analysis**: Identifying anomalous network and system behavior
+- **Threat Intelligence**: Leveraging external intelligence sources
+- **Incident Response**: Coordinated response to security incidents
+
+### Practical Applications
+
+#### FancyBear OSINT Assignment
+The highlighted assignment focused on analyzing the FancyBear (APT28) threat group:
+- **Attribution Analysis**: Connecting attacks to Russian military intelligence
+- **Infrastructure Mapping**: Tracing command and control servers
+- **Victimology Study**: Understanding target selection patterns
+- **Countermeasures**: Developing defensive strategies
+
+### Technical Skills Developed
+- **Maltego**: Link analysis and data visualization
+- **YARA Rules**: Creating custom malware detection signatures
+- **Python Scripting**: Automating threat intelligence workflows
+- **MITRE ATT&CK Framework**: Mapping adversary tactics and techniques
+
+### Industry Applications
+Skills from this course directly apply to:
+- **Security Operations Centers (SOC)**: Threat detection and response
+- **Incident Response Teams**: Digital forensics and malware analysis
+- **Threat Intelligence Analysts**: Strategic and tactical intelligence
+- **Penetration Testing**: Understanding adversary methodologies
 
 <style>
 .document-embed {
