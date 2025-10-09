@@ -4,8 +4,6 @@ title: "Quick Guide to RST"
 permalink: /quick-guide-rst/
 ---
 
-# Quick Guide to RST
-
 *This page has been converted from the original Sphinx RST documentation to Jekyll Markdown format.*
 
 This guide provided information about reStructuredText (RST) formatting, which was used in the original Sphinx-based version of this portfolio.

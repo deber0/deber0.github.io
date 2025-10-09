@@ -4,8 +4,6 @@ title: Hobbies
 permalink: /hobbies/
 ---
 
-# Hobbies
-
 Personal interests and creative pursuits that fuel my passion for learning and creating.
 
 <div class="hobbies-grid">

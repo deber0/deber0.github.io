@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<article class="documentation">
+  <header class="documentation-header">
+    <h1 class="documentation-title">{{ page.title | escape }}</h1>
+    {% if page.description %}
+    <p class="documentation-description">{{ page.description }}</p>
+    {% endif %}
+    
+    <div class="documentation-meta">
+      {% if page.category %}
+      <span class="documentation-category">{{ page.category }}</span>
+      {% endif %}
+      
+      {% if page.external_links %}
+      <div class="documentation-links">
+        <strong>Related Links:</strong>
+        {% for link in page.external_links %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener" class="external-link">{{ link.title }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="documentation-content">
+    {{ content }}
+  </div>
+</article>
+
+<style>
+.documentation-meta {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #FAF7F2;
+  border-radius: 8px;
+  border-left: 4px solid #D4AF37;
+}
+
+.documentation-category {
+  display: inline-block;
+  background: #0A2540;
+  color: #FAF7F2;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.documentation-links {
+  margin-top: 0.5rem;
+}
+
+.external-link {
+  display: inline-block;
+  background: #3A6EA5;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin: 0.2rem 0.2rem 0.2rem 0;
+  transition: background-color 0.2s ease;
+}
+
+.external-link:hover {
+  background: #0A2540;
+  text-decoration: none;
+  color: white;
+}
+
+.external-link::after {
+  content: " ↗";
+  font-size: 0.8rem;
+}
+</style>

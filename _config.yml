@@ -22,6 +22,9 @@ collections:
   hobbies:
     output: true
     permalink: /:collection/:name/
+  documentation:
+    output: true
+    permalink: /:collection/:name/
 
 # Navigation
 navigation:
@@ -33,6 +36,8 @@ navigation:
     url: /courses/
   - title: "Projects" 
     url: /projects/
+  - title: "Documentation"
+    url: /documentation/
   - title: "Hobbies"
     url: /hobbies/
 
@@ -92,3 +97,8 @@ defaults:
       type: "hobbies"
     values:
       layout: "hobby"
+  - scope:
+      path: ""
+      type: "documentation"
+    values:
+      layout: "documentation"

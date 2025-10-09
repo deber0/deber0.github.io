@@ -5,8 +5,6 @@ permalink: /resume/
 ---
 
 <div class="resume-container">
-  <h1>Resume</h1>
-  
   <div class="pdf-container">
     <object data="/assets/images/Drew_Brown_CV_online1.pdf" type="application/pdf" width="100%" height="800px">
       <p>Your browser doesn't support PDF viewing. 

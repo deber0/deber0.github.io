@@ -4,8 +4,6 @@ title: "Building the Portfolio"
 permalink: /building-portfolio/
 ---
 
-# Building the Portfolio
-
 ## Migration from Sphinx to Jekyll
 
 This portfolio has been successfully migrated from Sphinx (Python-based documentation generator) to Jekyll (Ruby-based static site generator). This migration provides several advantages:

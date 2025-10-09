@@ -4,8 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-# Projects
-
 A compilation of various projects. Both in-progress and completed.
 
 <div class="projects-grid">

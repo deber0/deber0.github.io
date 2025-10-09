@@ -4,8 +4,6 @@ title: "Thank You"
 permalink: /thank-you/
 ---
 
-# Thank You
-
 Thank you for taking the time to explore my portfolio and journey. This site represents not just my technical skills and academic achievements, but also my passion for learning, creating, and sharing knowledge.
 
 ## About This Portfolio

@@ -4,8 +4,6 @@ title: Course Listing
 permalink: /courses/
 ---
 
-# Course Listing
-
 A collection of course materials from my education experiences.
 
 <div class="course-categories">
