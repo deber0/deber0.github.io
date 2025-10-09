@@ -3,7 +3,7 @@
 ## 📋 Migration Completed Successfully
 
 **Date**: October 9, 2025  
-**Project**: deber0.github.io  
+**Project**: Doc's Journey (deber0.github.io)  
 **From**: Sphinx (Python-based documentation generator)  
 **To**: Jekyll (Ruby-based static site generator)
 

@@ -45,7 +45,7 @@ Thank you again for your time and interest. I hope my work inspires you as much 
 
 ---
 
-*Drew E. Brown*  
+*Drew E. Brown "Doc"*  
 *Cybersecurity Professional | Maker | Lifelong Learner*
 
 <div class="thank-you-footer">

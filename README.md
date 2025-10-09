@@ -1,6 +1,6 @@
-# Deber0's Journey - Jekyll Portfolio
+# Doc's Journey - Jekyll Portfolio
 
-This repository contains Drew Brown's personal portfolio website, successfully migrated from Sphinx to Jekyll for better GitHub Pages integration and modern web standards.
+This repository contains Drew Brown "Doc"'s personal portfolio website, successfully migrated from Sphinx to Jekyll for better GitHub Pages integration and modern web standards.
 
 ## 🌟 Live Site
 
@@ -206,7 +206,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
-**Drew E. Brown**
+**Drew E. Brown "Doc"**
 - Portfolio: [deber0.github.io](https://deber0.github.io)
 - GitHub: [@deber0](https://github.com/deber0)
 
