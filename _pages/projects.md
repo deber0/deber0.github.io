@@ -36,27 +36,28 @@ A compilation of various projects. Both in-progress and completed.
 
 .project-card {
   padding: 1.5rem;
-  background: #f8f9fa;
+  background: #ffffff;
   border-radius: 8px;
-  border-left: 4px solid #var(--vrv-steel);
+  border-left: 4px solid #3A6EA5;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-left-color 0.2s ease;
   cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .project-card-link:hover .project-card {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  border-left-color: var(--vrv-gold);
+  border-left-color: #D4AF37;
 }
 
 .project-card h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  color: var(--vrv-navy);
+  color: #0A2540;
 }
 
 .project-card-link:hover h3 {
-  color: var(--vrv-steel);
+  color: #3A6EA5;
 }
 
 .project-card p {

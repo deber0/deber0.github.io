@@ -37,18 +37,19 @@ Personal interests and creative pursuits that fuel my passion for learning and c
 }
 
 .hobby-card {
-  background: var(--vrv-cream);
+  background: #ffffff;
   border-radius: 8px;
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   cursor: pointer;
-  border: 2px solid transparent;
+  border: 2px solid #3A6EA5;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .hobby-card-link:hover .hobby-card {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  border-color: var(--vrv-gold);
+  border-color: #D4AF37;
 }
 
 .hobby-image {
@@ -64,11 +65,11 @@ Personal interests and creative pursuits that fuel my passion for learning and c
 .hobby-content h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  color: var(--vrv-navy);
+  color: #0A2540;
 }
 
 .hobby-card-link:hover h3 {
-  color: var(--vrv-steel);
+  color: #3A6EA5;
 }
 
 .hobby-content p {

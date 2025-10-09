@@ -77,27 +77,28 @@ A collection of course materials from my education experiences.
 .course-item {
   margin-bottom: 1.5rem;
   padding: 1rem;
-  border-left: 3px solid var(--vrv-steel);
-  background: var(--vrv-cream);
+  border-left: 4px solid #3A6EA5;
+  background: #ffffff;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-left-color 0.2s ease;
   cursor: pointer;
   border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .course-item-link:hover .course-item {
   transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  border-left-color: var(--vrv-gold);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  border-left-color: #D4AF37;
 }
 
 .course-item h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  color: var(--vrv-navy);
+  color: #0A2540;
 }
 
 .course-item-link:hover h3 {
-  color: var(--vrv-steel);
+  color: #3A6EA5;
 }
 
 .course-item p {
