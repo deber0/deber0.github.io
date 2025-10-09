@@ -1,8 +1,0 @@
-======
-Resume
-======
-
-:pdfembed:`src:../../_static/_assets/Drew_Brown_CV_online1.pdf#view=Fit&toolbar=1, height:800, width:750, align: middle`
-
-
-

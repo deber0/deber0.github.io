@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Building the Portfolio - Deber0&#39;s Journey</title>
+  <meta name="description" content="Perseverance leads creation - Drew E. Brown&#39;s Portfolio">
+  
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="canonical" href="http://localhost:4000/building-portfolio/">
+  
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Deber0's Journey" />
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Building the Portfolio | Deber0’s Journey</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="Building the Portfolio" />
+<meta name="author" content="Drew Brown" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Perseverance leads creation - Drew E. Brown’s Portfolio" />
+<meta property="og:description" content="Perseverance leads creation - Drew E. Brown’s Portfolio" />
+<link rel="canonical" href="http://localhost:4000/building-portfolio/" />
+<meta property="og:url" content="http://localhost:4000/building-portfolio/" />
+<meta property="og:site_name" content="Deber0’s Journey" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Building the Portfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Drew Brown"},"description":"Perseverance leads creation - Drew E. Brown’s Portfolio","headline":"Building the Portfolio","url":"http://localhost:4000/building-portfolio/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" rel="author" href="/">
+        <img src="/assets/images/drew_v2.jpeg" alt="Drew Brown" class="header-avatar">
+        Deber0&#39;s Journey
+      </a>
+      
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+        
+        <div class="trigger">
+          
+          <a class="page-link" href="/">Home</a>
+          
+          <a class="page-link" href="/resume/">Resume</a>
+          
+          <a class="page-link" href="/courses/">Courses</a>
+          
+          <a class="page-link" href="/projects/">Projects</a>
+          
+          <a class="page-link" href="/hobbies/">Hobbies</a>
+          
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="page">
+  <header class="page-header">
+    <h1 class="page-title">Building the Portfolio</h1>
+    
+  </header>
+
+  <div class="page-content">
+    <h1 id="building-the-portfolio">Building the Portfolio</h1>
+
+<h2 id="migration-from-sphinx-to-jekyll">Migration from Sphinx to Jekyll</h2>
+
+<p>This portfolio has been successfully migrated from Sphinx (Python-based documentation generator) to Jekyll (Ruby-based static site generator). This migration provides several advantages:</p>
+
+<h3 id="why-jekyll">Why Jekyll?</h3>
+
+<ol>
+  <li><strong>GitHub Pages Native Support</strong>: Jekyll is natively supported by GitHub Pages, eliminating the need for external CI/CD processes</li>
+  <li><strong>Markdown Simplicity</strong>: Markdown is more widely adopted and easier to work with than reStructuredText</li>
+  <li><strong>Modern Web Standards</strong>: Better mobile responsiveness and modern CSS capabilities</li>
+  <li><strong>Community &amp; Themes</strong>: Large ecosystem of themes and plugins</li>
+  <li><strong>Performance</strong>: Faster build times and optimized output</li>
+</ol>
+
+<h3 id="migration-process">Migration Process</h3>
+
+<h4 id="1-configuration-setup">1. Configuration Setup</h4>
+<ul>
+  <li>Created <code class="language-plaintext highlighter-rouge">_config.yml</code> with site settings and collections</li>
+  <li>Set up <code class="language-plaintext highlighter-rouge">Gemfile</code> for dependency management</li>
+  <li>Configured navigation and site structure</li>
+</ul>
+
+<h4 id="2-content-conversion">2. Content Conversion</h4>
+<ul>
+  <li>Converted RST files to Markdown format</li>
+  <li>Migrated images and assets to Jekyll’s assets directory</li>
+  <li>Preserved all PDF documents and downloadable content</li>
+  <li>Reorganized content into Jekyll collections (projects, courses, hobbies)</li>
+</ul>
+
+<h4 id="3-layout-system">3. Layout System</h4>
+<p>Created custom layouts for different content types:</p>
+<ul>
+  <li><strong>Default Layout</strong>: Base template with navigation and footer</li>
+  <li><strong>Page Layout</strong>: For static pages like resume and guides</li>
+  <li><strong>Project Layout</strong>: Enhanced with status indicators and technology tags</li>
+  <li><strong>Course Layout</strong>: Academic content with institution and level metadata</li>
+  <li><strong>Hobby Layout</strong>: Personal interests with category organization</li>
+</ul>
+
+<h4 id="4-styling--design">4. Styling &amp; Design</h4>
+<ul>
+  <li>Modern, responsive CSS built on top of the Minima theme</li>
+  <li>Mobile-first design approach</li>
+  <li>Consistent color scheme and typography</li>
+  <li>Enhanced user experience with hover effects and smooth transitions</li>
+</ul>
+
+<h3 id="site-structure">Site Structure</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>deber0.github.io/
+├── _config.yml          # Jekyll configuration
+├── Gemfile              # Ruby dependencies
+├── index.html           # Homepage
+├── _layouts/            # Page templates
+├── _pages/              # Static pages
+├── _projects/           # Project collection
+├── _courses/            # Course collection
+├── _hobbies/            # Hobby collection
+├── assets/
+│   ├── css/             # Stylesheets
+│   └── images/          # Images and PDFs
+└── CNAME                # Domain configuration
+</code></pre></div></div>
+
+<h3 id="features-implemented">Features Implemented</h3>
+
+<ul>
+  <li><strong>Responsive Navigation</strong>: Mobile-friendly hamburger menu</li>
+  <li><strong>PDF Embedding</strong>: Maintained ability to display PDF documents inline</li>
+  <li><strong>Collection Organization</strong>: Logical grouping of content by type</li>
+  <li><strong>SEO Optimization</strong>: Meta tags and structured data</li>
+  <li><strong>Social Sharing</strong>: Open Graph and Twitter Card support</li>
+</ul>
+
+<h3 id="development-workflow">Development Workflow</h3>
+
+<h4 id="local-development">Local Development</h4>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Install dependencies</span>
+bundle <span class="nb">install</span>
+
+<span class="c"># Serve locally</span>
+bundle <span class="nb">exec </span>jekyll serve
+
+<span class="c"># Build for production</span>
+bundle <span class="nb">exec </span>jekyll build
+</code></pre></div></div>
+
+<h4 id="deployment">Deployment</h4>
+<p>The site automatically deploys to GitHub Pages when changes are pushed to the main branch.</p>
+
+<h3 id="content-management">Content Management</h3>
+
+<h4 id="adding-new-projects">Adding New Projects</h4>
+<p>Create a new file in <code class="language-plaintext highlighter-rouge">_projects/</code> with frontmatter:</p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Project</span><span class="nv"> </span><span class="s">Name"</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Brief</span><span class="nv"> </span><span class="s">description"</span>
+<span class="na">status</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Completed"</span> <span class="c1"># or "In Progress", "Planned"</span>
+<span class="na">technologies</span><span class="pi">:</span> <span class="pi">[</span><span class="s2">"</span><span class="s">Tech1"</span><span class="pi">,</span> <span class="s2">"</span><span class="s">Tech2"</span><span class="pi">]</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<h4 id="adding-new-courses">Adding New Courses</h4>
+<p>Create a new file in <code class="language-plaintext highlighter-rouge">_courses/</code> with frontmatter:</p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Course</span><span class="nv"> </span><span class="s">Name"</span>
+<span class="na">course_code</span><span class="pi">:</span> <span class="s2">"</span><span class="s">COURSE123"</span>
+<span class="na">level</span><span class="pi">:</span> <span class="s2">"</span><span class="s">graduate"</span> <span class="c1"># or "undergraduate"</span>
+<span class="na">institution</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Institution</span><span class="nv"> </span><span class="s">Name"</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<h4 id="adding-new-hobbies">Adding New Hobbies</h4>
+<p>Create a new file in <code class="language-plaintext highlighter-rouge">_hobbies/</code> with frontmatter:</p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Hobby</span><span class="nv"> </span><span class="s">Name"</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Brief</span><span class="nv"> </span><span class="s">description"</span>
+<span class="na">category</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Category</span><span class="nv"> </span><span class="s">Name"</span>
+<span class="na">image</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/assets/images/hobby-image.jpg"</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<h3 id="performance-optimizations">Performance Optimizations</h3>
+
+<ul>
+  <li>Optimized images for web delivery</li>
+  <li>Minified CSS and JavaScript</li>
+  <li>Lazy loading for images</li>
+  <li>Efficient caching strategies</li>
+  <li>Clean, semantic HTML structure</li>
+</ul>
+
+<h3 id="accessibility-features">Accessibility Features</h3>
+
+<ul>
+  <li>Semantic HTML elements</li>
+  <li>Proper heading hierarchy</li>
+  <li>Alt text for all images</li>
+  <li>Keyboard navigation support</li>
+  <li>High contrast color schemes</li>
+  <li>Screen reader friendly navigation</li>
+</ul>
+
+<p>This migration represents a significant upgrade in both technology stack and user experience while preserving all the valuable content and functionality of the original portfolio.</p>
+
+  </div>
+</article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <div class="footer-content">
+        <div class="footer-col">
+          <p>Perseverance leads creation - Drew E. Brown&#39;s Portfolio</p>
+        </div>
+        <div class="footer-col">
+          <p>&copy; 2025 Drew Brown. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

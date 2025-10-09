@@ -1,0 +1,194 @@
+---
+---
+
+@import "minima";
+
+/* Custom styles for Deber0's Journey */
+
+/* Header customization */
+.site-header {
+  border-top: 5px solid #0366d6;
+  border-bottom: 1px solid #e1e4e8;
+  background-color: #ffffff;
+}
+
+.site-title {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333 !important;
+  text-decoration: none;
+}
+
+.site-title:hover {
+  text-decoration: none;
+  color: #0366d6 !important;
+}
+
+.header-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+/* Navigation */
+.site-nav .page-link {
+  color: #586069;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.site-nav .page-link:hover {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+/* Content wrapper */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #24292e;
+}
+
+h1 {
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
+}
+
+/* Links */
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Code blocks */
+pre, code {
+  background-color: #f6f8fa;
+  border-radius: 6px;
+}
+
+pre {
+  padding: 1rem;
+  overflow: auto;
+}
+
+code {
+  padding: 0.2em 0.4em;
+  font-size: 85%;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid #e1e4e8;
+  background-color: #f6f8fa;
+  margin-top: 3rem;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.footer-col p {
+  margin: 0;
+  color: #586069;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .site-title {
+    font-size: 18px;
+  }
+  
+  .header-avatar {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .wrapper {
+    padding: 0 15px;
+  }
+}
+
+/* Mobile navigation */
+@media screen and (max-width: 600px) {
+  .site-nav {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    background-color: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 5px;
+    text-align: right;
+  }
+
+  .site-nav label[for="nav-trigger"] {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .site-nav .menu-icon {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .site-nav .menu-icon > svg {
+    fill: #424242;
+  }
+
+  .site-nav input ~ .trigger {
+    clear: both;
+    display: none;
+  }
+
+  .site-nav input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  .site-nav .page-link {
+    display: block;
+    padding: 5px 10px;
+    margin-left: 20px;
+  }
+
+  .site-nav .page-link:not(:last-child) {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<article class="hobby">
+  <header class="hobby-header">
+    <h1 class="hobby-title">{{ page.title | escape }}</h1>
+    {% if page.description %}
+    <p class="hobby-description">{{ page.description }}</p>
+    {% endif %}
+    
+    {% if page.category %}
+    <div class="hobby-meta">
+      <span class="hobby-category">{{ page.category }}</span>
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="hobby-content">
+    {{ content }}
+  </div>
+</article>
+
+<style>
+.hobby-meta {
+  margin: 1rem 0;
+}
+
+.hobby-category {
+  display: inline-block;
+  background: #17a2b8;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+</style>

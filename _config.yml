@@ -1,0 +1,94 @@
+# Jekyll Configuration for Deber0's Journey
+title: "Deber0's Journey"
+description: "Perseverance leads creation - Drew E. Brown's Portfolio"
+author: "Drew Brown"
+email: "your-email@example.com" # Update with your actual email
+url: "https://deber0.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+  courses:
+    output: true
+    permalink: /:collection/:name/
+  hobbies:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Resume"
+    url: /resume/
+  - title: "Courses"
+    url: /courses/
+  - title: "Projects" 
+    url: /projects/
+  - title: "Hobbies"
+    url: /hobbies/
+
+# Theme and plugins
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - _source/
+  - _build/
+  - docs/
+  - Makefile
+  - make.bat
+  - requirements.txt
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - package.json
+
+# Include files
+include:
+  - _pages
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Drew Brown"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "courses"
+    values:
+      layout: "course"
+  - scope:
+      path: ""
+      type: "hobbies"
+    values:
+      layout: "hobby"

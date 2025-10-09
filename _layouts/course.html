@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<article class="course">
+  <header class="course-header">
+    <h1 class="course-title">{{ page.title | escape }}</h1>
+    {% if page.description %}
+    <p class="course-description">{{ page.description }}</p>
+    {% endif %}
+    
+    <div class="course-meta">
+      {% if page.course_code %}
+      <span class="course-code">{{ page.course_code }}</span>
+      {% endif %}
+      
+      {% if page.institution %}
+      <span class="course-institution">{{ page.institution }}</span>
+      {% endif %}
+      
+      {% if page.level %}
+      <span class="course-level level-{{ page.level }}">{{ page.level | capitalize }}</span>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="course-content">
+    {{ content }}
+  </div>
+</article>
+
+<style>
+.course-meta {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.course-code {
+  display: inline-block;
+  background: #0366d6;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.course-institution {
+  display: inline-block;
+  background: #6f42c1;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.course-level {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.level-graduate {
+  background-color: #dc3545;
+  color: white;
+}
+
+.level-undergraduate {
+  background-color: #28a745;
+  color: white;
+}
+</style>

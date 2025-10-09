@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<article class="project">
+  <header class="project-header">
+    <h1 class="project-title">{{ page.title | escape }}</h1>
+    {% if page.description %}
+    <p class="project-description">{{ page.description }}</p>
+    {% endif %}
+    
+    <div class="project-meta">
+      {% if page.status %}
+      <span class="project-status status-{{ page.status | downcase }}">{{ page.status }}</span>
+      {% endif %}
+      
+      {% if page.technologies %}
+      <div class="project-technologies">
+        <strong>Technologies:</strong>
+        {% for tech in page.technologies %}
+        <span class="tech-tag">{{ tech }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+      
+      {% if page.external_link %}
+      <div class="project-link">
+        <a href="{{ page.external_link }}" target="_blank" rel="noopener">🔗 View Project</a>
+      </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="project-content">
+    {{ content }}
+  </div>
+</article>
+
+<style>
+.project-meta {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.project-status {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.status-completed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-in-progress {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-planned {
+  background-color: #e2e3e5;
+  color: #495057;
+}
+
+.project-technologies {
+  margin: 0.5rem 0;
+}
+
+.tech-tag {
+  display: inline-block;
+  background: #0366d6;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin: 0.2rem 0.2rem 0.2rem 0;
+}
+
+.project-link a {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-link a:hover {
+  text-decoration: underline;
+}
+</style>
