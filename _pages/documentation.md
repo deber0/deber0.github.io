@@ -45,7 +45,7 @@ Documentation and insights on building technology ventures, business development
   padding: 2rem;
   background: #ffffff;
   border-radius: 8px;
-  border-left: 4px solid #0A2540;
+  border-left: 4px solid #3A6EA5;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-left-color 0.2s ease;
   cursor: pointer;

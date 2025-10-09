@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://deber0.com/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 1
+
+# Block unnecessary paths
+Disallow: /assets/
+Disallow: /_site/
+Disallow: /sw.js
+
+# Allow important assets
+Allow: /assets/images/
+Allow: /assets/css/style.css
