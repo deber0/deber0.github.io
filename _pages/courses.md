@@ -22,10 +22,12 @@ A collection of course materials from my education experiences.
 
 {% for course in site.courses %}
   {% if course.level == 'graduate' %}
-  <div class="course-item">
-    <h3><a href="{{ course.url }}">{{ course.title }}</a></h3>
-    <p>{{ course.description }}</p>
-  </div>
+  <a href="{{ course.url }}" class="course-item-link">
+    <div class="course-item">
+      <h3>{{ course.title }}</h3>
+      <p>{{ course.description }}</p>
+    </div>
+  </a>
   {% endif %}
 {% endfor %}
 
@@ -33,10 +35,12 @@ A collection of course materials from my education experiences.
 
 {% for course in site.courses %}
   {% if course.level == 'undergraduate' %}
-  <div class="course-item">
-    <h3><a href="{{ course.url }}">{{ course.title }}</a></h3>
-    <p>{{ course.description }}</p>
-  </div>
+  <a href="{{ course.url }}" class="course-item-link">
+    <div class="course-item">
+      <h3>{{ course.title }}</h3>
+      <p>{{ course.description }}</p>
+    </div>
+  </a>
   {% endif %}
 {% endfor %}
 
@@ -64,25 +68,36 @@ A collection of course materials from my education experiences.
   color: #0366d6;
 }
 
+.course-item-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .course-item {
   margin-bottom: 1.5rem;
   padding: 1rem;
-  border-left: 3px solid #0366d6;
-  background: #f8f9fa;
+  border-left: 3px solid var(--vrv-steel);
+  background: var(--vrv-cream);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-left-color 0.2s ease;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.course-item-link:hover .course-item {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-left-color: var(--vrv-gold);
 }
 
 .course-item h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  color: var(--vrv-navy);
 }
 
-.course-item h3 a {
-  color: #0366d6;
-  text-decoration: none;
-}
-
-.course-item h3 a:hover {
-  text-decoration: underline;
+.course-item-link:hover h3 {
+  color: var(--vrv-steel);
 }
 
 .course-item p {

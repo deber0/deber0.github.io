@@ -8,15 +8,17 @@ Personal interests and creative pursuits that fuel my passion for learning and c
 
 <div class="hobbies-grid">
   {% for hobby in site.hobbies %}
-  <div class="hobby-card">
-    {% if hobby.image %}
-    <img src="{{ hobby.image }}" alt="{{ hobby.title }}" class="hobby-image">
-    {% endif %}
-    <div class="hobby-content">
-      <h3><a href="{{ hobby.url }}">{{ hobby.title }}</a></h3>
-      <p>{{ hobby.description }}</p>
+  <a href="{{ hobby.url }}" class="hobby-card-link">
+    <div class="hobby-card">
+      {% if hobby.image %}
+      <img src="{{ hobby.image }}" alt="{{ hobby.title }}" class="hobby-image">
+      {% endif %}
+      <div class="hobby-content">
+        <h3>{{ hobby.title }}</h3>
+        <p>{{ hobby.description }}</p>
+      </div>
     </div>
-  </div>
+  </a>
   {% endfor %}
 </div>
 
@@ -28,16 +30,25 @@ Personal interests and creative pursuits that fuel my passion for learning and c
   margin: 2rem 0;
 }
 
+.hobby-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .hobby-card {
-  background: #f8f9fa;
+  background: var(--vrv-cream);
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
 }
 
-.hobby-card:hover {
+.hobby-card-link:hover .hobby-card {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-color: var(--vrv-gold);
 }
 
 .hobby-image {
@@ -53,15 +64,11 @@ Personal interests and creative pursuits that fuel my passion for learning and c
 .hobby-content h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  color: var(--vrv-navy);
 }
 
-.hobby-content h3 a {
-  color: #333;
-  text-decoration: none;
-}
-
-.hobby-content h3 a:hover {
-  color: #0366d6;
+.hobby-card-link:hover h3 {
+  color: var(--vrv-steel);
 }
 
 .hobby-content p {

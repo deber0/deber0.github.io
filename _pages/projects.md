@@ -8,13 +8,15 @@ A compilation of various projects. Both in-progress and completed.
 
 <div class="projects-grid">
   {% for project in site.projects %}
-  <div class="project-card">
-    <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
-    <p>{{ project.description }}</p>
-    {% if project.status %}
-    <span class="project-status status-{{ project.status | downcase }}">{{ project.status }}</span>
-    {% endif %}
-  </div>
+  <a href="{{ project.url }}" class="project-card-link">
+    <div class="project-card">
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.description }}</p>
+      {% if project.status %}
+      <span class="project-status status-{{ project.status | downcase }}">{{ project.status }}</span>
+      {% endif %}
+    </div>
+  </a>
   {% endfor %}
 </div>
 
@@ -26,31 +28,35 @@ A compilation of various projects. Both in-progress and completed.
   margin: 2rem 0;
 }
 
+.project-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .project-card {
   padding: 1.5rem;
   background: #f8f9fa;
   border-radius: 8px;
-  border-left: 4px solid #0366d6;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-left: 4px solid #var(--vrv-steel);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-left-color 0.2s ease;
+  cursor: pointer;
 }
 
-.project-card:hover {
+.project-card-link:hover .project-card {
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-left-color: var(--vrv-gold);
 }
 
 .project-card h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  color: var(--vrv-navy);
 }
 
-.project-card h3 a {
-  color: #333;
-  text-decoration: none;
-}
-
-.project-card h3 a:hover {
-  color: #0366d6;
+.project-card-link:hover h3 {
+  color: var(--vrv-steel);
 }
 
 .project-card p {
